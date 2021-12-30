@@ -1,0 +1,40 @@
+git init
+
+git config --global user.name "name"
+
+git config --global user.email "email"
+
+git config --list
+
+git config --global unset user.name
+
+git config --global unset user.email
+
+touch file1
+
+ls
+
+ls -a
+
+touch file2 file3 file4
+
+rm file4
+
+mkdir dir1
+
+cd dir1
+
+cd ..
+
+rmdir dir1
+
+git status
+
+git add file1
+
+git commit -m "mesg" file1
+
+git log
+
+git show commitid
+
