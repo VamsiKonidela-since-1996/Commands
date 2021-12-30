@@ -1,0 +1,57 @@
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        commands
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git add commands
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git commit -m "git commands" commands
+[main a66bec2] git commands
+ 1 file changed, 40 insertions(+)
+ create mode 100644 commands
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git log
+commit a66bec2102be0634f0546de71e2b8312cfa87578 (HEAD -> main)
+Author: Bruce wayne <vamsikonidela9@gmail.com>
+Date:   Thu Dec 30 06:15:07 2021 +0530
+
+    git commands
+
+commit 977ff81d22faae893d855664afe3de154aec448c (origin/main, origin/HEAD)
+Author: Bruce wayne <60947327+VamsiKonidela-since-1996@users.noreply.github.com>
+Date:   Thu Dec 30 06:12:54 2021 +0530
+
+    Initial commit
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git puish
+git: 'puish' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 430 bytes | 430.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/VamsiKonidela-since-1996/Commands.git
+   977ff81..a66bec2  main -> main
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$ touch vamsi
+
+VAMSI KRISHNA@Bruce-Wayne MINGW64 /d/git Practice/commands (main)
+$
